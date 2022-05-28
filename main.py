@@ -170,7 +170,7 @@ def main():
 
         with open(args.output, 'w') as fh:
             for line in final_list:
-                fh.write('DOMAIN-SUFFIX,' + line + '\n')
+                fh.write('.' + line + '\n')
 
 
 if __name__ == '__main__':
